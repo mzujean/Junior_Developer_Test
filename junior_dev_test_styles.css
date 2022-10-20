@@ -1,0 +1,17 @@
+.container {
+    display:flex;
+    height: 21px;
+    width: 80%;
+}
+.container_buttons {
+    display:flex;
+    height: 21px;
+    width: 100%;
+    justify-content: right;
+}
+.hr {
+    width: 100%;
+    color: black;
+    size:3;
+
+}
