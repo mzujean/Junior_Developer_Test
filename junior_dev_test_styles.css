@@ -13,5 +13,41 @@
     width: 100%;
     color: black;
     size:3;
+}
+.Listed-products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content:space-around;
+    padding-top:20px;
+}
+.Listed-products_container{
+    max-width: 200px;
+    max-height: 250px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
+.Text-container {
+    width: 200px;
+    height: 120px;
+    text-align: center;
+    padding-bottom:30px;
+    line-height: 1.5;
+}
+
+input {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+    vertical-align: bottom;
+    position: relative;
+    bottom: -15px;
+    left: 15px;
+    display:flex;
 }
