@@ -4,19 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="junior_dev_test_styles.css" rel="stylesheet">
+  <link href="junior_dev_test_product_add_styles.css" rel="stylesheet">
   <title>Product</title>
 </head>
 <body>
     <nav class = "navbar">
         <div class ="container">
-            <h1> Product List</h1>
+            <h1>Product Add</h1>
         </div>
         <div class= "container_buttons" >
             <button type="button">Save</button>
-            <button type="button" id="#delete-product-btn">Cancel</button>
+            <button type="button">Cancel</button>
         </div>
         <hr>
-        <div class="Listed-products">
+        <form action = "" id="product_form">
+            <div class="text_lable_input">
+                <lable for="sku" class="text">SKU</lable>
+                <input type="text" id="sku" name="sku">
 
-        </div>
+            </div>
+            <br>
+            <div>
+                <lable for="name" class="text">Name</lable>
+                <input type="text" id="name" name="name">
+
+            </div>
+            <br>
+            <div>
+                <lable for="price" class="text">Price ($)</lable>
+                <input type="text" id="price">
+
+            </div>
+            <br>
+            <div>
+                <lable for="type" id="productType">Type Switcher</lable>
+                <select type="product_type" id="product_Type"></select>
+            </div>
+
+        </form>
