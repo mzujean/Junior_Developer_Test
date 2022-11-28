@@ -80,28 +80,6 @@ if($result){
                 </div>
                 
             </div>
-            <div class="Listed-products_container">
-                <div class="Text-container">
-
-                    <input type="checkbox" class="delete-checkbox" name="chk_id[]" value="<?php echo $row["id"]?>">
-                    <p class = "sku"> <?php  echo $row["sku"]; ?></p>
-                    <p class = "name"><?php  echo $row["name"]; ?></p>
-                    <p class = "price"><?php  echo $row["price"];?> $</p>
-
-                    <?php
-                    if($row['size'] > 0) {
-                        echo "Size: " . $row['size'] . "MB";
-                    }
-                    if ($row['weight'] > 0){
-                        echo "Weight: " . $row['weight'] . "KG";
-                    }
-                    if ($row['height'] > 0) {
-                        echo "Dimension: " . $row['height'] . "X" . $row['width'] . "X" . $row['length'];
-                    }
-                    ?>
-                </div>
-                
-            </div>
         </div>
 <?php
 
